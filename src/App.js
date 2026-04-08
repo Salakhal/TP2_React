@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Compteur from './Compteur';
+import MessageBouton from './MessageBouton';
+import FormulaireNom from './FormulaireNom';
+import CompteurEffet from './CompteurEffet';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="dashboard">
+      <header>
+        <h1>🎓 Travaux Pratiques : React Hooks</h1>
+       
       </header>
+
+      <div className="card"><Compteur /></div>
+      <div className="card"><MessageBouton /></div>
+      <div className="card"><FormulaireNom /></div>
+      <div className="card"><CompteurEffet /></div>
     </div>
   );
 }
