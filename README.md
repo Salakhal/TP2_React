@@ -54,6 +54,10 @@ L'interface a été conçue pour dépasser le cadre académique et proposer une 
 
 
 
+https://github.com/user-attachments/assets/a982bc9b-cb2d-49fa-9c41-2543fb8e6203
+
+
+
 
 ## 👤 Auteur
 
